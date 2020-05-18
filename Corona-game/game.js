@@ -1,12 +1,12 @@
 function load_images(){
     virus_img = new Image;  //create image
-	virus_img.src = "Assets/v2.png";
+	virus_img.src = "Assets/alien1.png";
 
 	player_img = new Image;
-	player_img.src = "Assets/super-mario.png";
+	player_img.src = "Assets/ufo1.png";
 
 	gem_image = new Image;
-	gem_image.src = "Assets/gemm.png";
+	gem_image.src = "Assets/planet1.png";
 
 }
 
@@ -32,29 +32,29 @@ e1 = {
     h : 60,
     speed : 20,
 };
-e4 = {
-    x : 180,
+e2 = {
+    x : 120,
     y : 50,
     w : 60,
     h : 60,
     speed : 25,
 };
-e5 = {
-    x : 250,
+e3 = {
+    x : 220,
     y : 50,
     w : 60,
     h : 60,
     speed : 35,
 
 }
-e2 = {
-    x : 330,
+e4 = {
+    x : 320,
     y : 150,
     w : 60,
     h : 60,
     speed : 30,
 };
-e3 = {
+e5 = {
     x : 420,
     y : 20,
     w : 60,
@@ -62,7 +62,7 @@ e3 = {
     speed : 35,
 };
 e6 = {
-    x : 490,
+    x : 520,
     y : 20,
     w : 60,
     h : 60,
@@ -77,12 +77,12 @@ player = {
     moving : "false",
 };
 gem = {
-    x : W-100,
+    x : W-70,
     y : H/2,
     w : 60,
     h : 60,
 };
-enemy = [e1,e4,e5,e2,e3,e6];
+enemy = [e2,e3,e4,e5,e6];
 
 }
 
